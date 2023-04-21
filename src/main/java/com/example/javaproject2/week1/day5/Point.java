@@ -7,8 +7,13 @@ public class Point {
         // x == y?
         return x == y;
     }
-    double distanceXY(){
+    double getDistance(Point end){
         // x 와 y 사이의 거리?
-        return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+        int xL = this.x - end.x;
+        int yL = this.y - end.y;
+
+        double sumOfPow = Math.pow(xL, 2) + Math.pow(yL, 2); // 제곱
+
+        return Math.sqrt(sumOfPow); // 루트
     }
 }
