@@ -1,4 +1,4 @@
-package week6.day5.interfaceEx2;
+package com.example.javaproject2.week6.day5.interfaceEx2;
 
 public class CircleTest {
     public static void main(String[] args) {

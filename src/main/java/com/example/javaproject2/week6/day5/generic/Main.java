@@ -1,4 +1,4 @@
-package week6.day5.generic;
+package com.example.javaproject2.week6.day5.generic;
 
 public class Main {
     public static void main(String[] args) {

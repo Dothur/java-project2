@@ -1,4 +1,4 @@
-package week6.day5.abstractEx;
+package com.example.javaproject2.week6.day5.abstractEx;
 
 public abstract class Animal {
     public abstract void makeSound();

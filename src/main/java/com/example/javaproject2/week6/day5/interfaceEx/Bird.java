@@ -1,4 +1,4 @@
-package week6.day5.interfaceEx;
+package com.example.javaproject2.week6.day5.interfaceEx;
 
 public class Bird implements Human{
     @Override
